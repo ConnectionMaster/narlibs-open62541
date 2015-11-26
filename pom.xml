@@ -18,7 +18,7 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <upstream.version>${project.version}/upstream.version>
+        <upstream.version>${project.version}</upstream.version>
         <upstream.url>https://github.com/acplt/open62541/releases/download/v${upstream.version}</upstream.url>
         <destDir>${project.build.directory}/nar/${project.artifactId}/${project.version}</destDir>
     </properties>
